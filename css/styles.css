@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #000000; /* Black for a penguin's body */
+    color: #ffffff; /* White for contrast */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #ff9900; /* Orange accent for a penguin's beak */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Verdana', sans-serif;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #000000; /* Black for consistency */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 25px;
+    background-color: #ffffff; /* White for contrast */
+    color: #000000; /* Black text */
+    text-decoration: none;
+    font-weight: bold;
+    border-right: 1px solid #ff9900; /* Orange accent */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:last-child {
+    border-right: none;
+}
+
+nav ul li a:hover {
+    background-color: #ff9900; /* Orange hover effect */
+    color: #ffffff; /* White text on hover */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main img {
+    border: 5px solid #ff9900; /* Orange border for images */
+    border-radius: 10px;
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #000000; /* Black for headings */
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    background: #ffffff; /* White background for list items */
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+footer {
+    background: #000000; /* Black footer */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 15px 0;
+    border-top: 5px solid #ff9900; /* Orange accent */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+button {
+    background-color: #ff9900; /* Orange button */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #cc7a00; /* Darker orange on hover */
+}
